@@ -43,3 +43,57 @@ p{
     font-size: 40px;
     color: rgb(116, 126, 134);
 }
+
+.main-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.featured{
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.featured-1{
+    background-color: aqua;
+    padding: 50px 40px 0 40px ;
+    border-radius: 230px 230px 0 0;
+}
+.featured-1 > img{
+    position: relative;
+    bottom: -4px;
+}
+
+.featured-2{
+    background-color: rgb(99, 45, 56);
+    padding: 50px 40px 0 40px ;
+    border-radius: 230px 230px 0 0;
+}
+.featured-2 > img{
+    position: relative;
+    bottom: -4px;
+}.featured-3{
+    background-color: rgb(163, 160, 187);
+    padding: 50px 40px 0 40px ;
+    border-radius: 230px 230px 0 0;
+}
+.featured-3 > img{
+    position: relative;
+    bottom: -4px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    margin-top: 20px;
+}
+.list > li{
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#nai{
+    height: 1000px;
+}
